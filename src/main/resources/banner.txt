@@ -1,0 +1,8 @@
+TeachingSystem
+v1.0.0
+
+author
+${Ansi.NAME}
+
+Email
+${Ansi.EMAIL}
