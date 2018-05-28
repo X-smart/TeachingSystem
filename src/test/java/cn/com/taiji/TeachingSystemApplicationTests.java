@@ -35,4 +35,9 @@ public class TeachingSystemApplicationTests {
 		homeController.callName();
 	}
 
+	@Test
+	public void viewMenu() {
+		homeController.viewMenu();
+	}
+	
 }

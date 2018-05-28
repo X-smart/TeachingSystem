@@ -6,9 +6,11 @@ public interface StudyService {
 
 	public void  attendClass();
 	
-	public void  siginIn();
+	public String  siginIn();
 	
-	public void  queryClass();
+	public String  queryClass();
 	
 	public void  callName();
+	
+	public void viewMenu();
 }

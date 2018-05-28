@@ -26,4 +26,8 @@ public class HomeController {
 	public void  callName() {
 		studyService.callName();
 	};
+	
+	public void  viewMenu() {
+		studyService.viewMenu();
+	};
 }
