@@ -50,38 +50,14 @@ public class StudyServiceImpl implements StudyService {
 
 	@Override
 	public void viewMenu() {
-		// TODO Auto-generated method stub
-		int sc;
-		while(true) {
-			System.out.println("--------------------");
-			System.out.println("----教务系统欢迎您----");
-			System.out.println("----请选择您的服务：--");
-			System.out.println("----1.签到----------");
-			System.out.println("----2.点名----------");
-			System.out.println("----3.查询课表-------");
-			System.out.println("--------------------");
-			sc =  new Scanner(System.in).nextInt();
-			while (sc == 1) {
-				String siginIn = siginIn();
-				if (siginIn.equals("n")) {
-					break;
-				}
-				viewMenu();
-			}
-			if (sc == 2) {
-				callName();
-			}
-			while (sc == 3) {
-				String queryClass = queryClass();
-				if (queryClass.equals("n")) {
-					break;
-				}
-				viewMenu();
-			}
-			
-			
-		}
-		}
+		System.out.println("--------------------");
+		System.out.println("----教务系统欢迎您----");
+		System.out.println("----请选择您的服务：--");
+		System.out.println("----1.签到----------");
+		System.out.println("----2.点名----------");
+		System.out.println("----3.查询课表-------");
+		System.out.println("--------------------");
+	}
 	}
 
 

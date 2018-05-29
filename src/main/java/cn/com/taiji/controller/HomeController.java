@@ -15,12 +15,12 @@ public class HomeController {
 		studyService.attendClass();
 	};
 	
-	public void  siginIn() {
-		studyService.siginIn();
+	public String  siginIn() {
+		return studyService.siginIn();
 	};
 	
-	public void  queryClass() {
-		studyService.queryClass();
+	public String  queryClass() {
+		return studyService.queryClass();
 	};
 	
 	public void  callName() {
